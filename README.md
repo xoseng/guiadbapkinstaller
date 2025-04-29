@@ -5,6 +5,12 @@ Este programa permite instalar automáticamente archivos APK en dispositivos And
 
 Es compatible con Windows, y necesita tener instalado ADB en el equipo para funcionar.
 
+## Captura de pantalla
+
+A continuación, una vista previa de la interfaz del programa:
+
+![Captura de la interfaz](https://github.com/xoseng/guiadbapkinstaller/blob/main/img/tk_interfaz.png?raw=true)
+
 ---
 
 ## Características principales
