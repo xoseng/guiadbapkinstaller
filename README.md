@@ -1,4 +1,4 @@
-# 📱 GUI ADB APK INSTALLER APP
+# 📱 GUI ADB APK INSTALLER
 
 ## Descripción
 Este programa permite instalar automáticamente archivos APK en dispositivos Android conectados al ordenador mediante ADB, usando una **interfaz gráfica (GUI)** sencilla y clara basada en **Tkinter**.
