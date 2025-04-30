@@ -110,7 +110,7 @@ def main_start():
         instalacion_activa.set(False)
 
     # MAIN SCREEN
-    version_software = 'GUI ADB APK INSTALLER v0.1 BETA'
+    version_software = 'GUI ADB APK INSTALLER v0.2 BETA'
     logo_path = './img/apk.ico'
     root = Tk()
     root.config(bd=30)

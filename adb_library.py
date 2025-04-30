@@ -70,10 +70,10 @@ def obtener_dispositivos_completo():
 import subprocess
 
 def instalar_apks_en_dispositivo(id_dispositivo, lista_apks):
-    import colorama
-    from colorama import Back, Fore, Style
-    colorama.init(
-        autoreset=True)  # NOTICE: to reset color, if not set the terminal color should be change to last print...
+
+    #import colorama
+    #from colorama import Back, Fore, Style
+    #colorama.init(autoreset=True)  # NOTICE: to reset color, if not set the terminal color should be change to last print...
 
     try:
         for apk in lista_apks:
@@ -81,12 +81,12 @@ def instalar_apks_en_dispositivo(id_dispositivo, lista_apks):
             resultado = subprocess.run(comando, shell=True, capture_output=True, text=True)
 
             if resultado.returncode != 0:
-                print(Fore.RED + f"Error al instalar {apk}: {resultado.stderr}")
+                #print(Fore.RED + f"Error al instalar {apk}: {resultado.stderr}")
                 return False  # Fallo, salimos
 
         return True  # Todo correcto
 
     except Exception as e:
-        print(Fore.RED + f"Excepción durante la instalación: {str(e)}")
+        #print(Fore.RED + f"Excepción durante la instalación: {str(e)}")
         return False
 

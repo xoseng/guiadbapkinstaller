@@ -18,7 +18,7 @@ options = {
 setup(
     name="GUI ADB APK INSTALLER",
     version="0.1",
-    description="GUI ADB APK INSTALLER 0.1 BETA",
+    description="GUI ADB APK INSTALLER 0.2 BETA",
     author="Xosé Brais Noya García",
     options=options,
     executables=[target]

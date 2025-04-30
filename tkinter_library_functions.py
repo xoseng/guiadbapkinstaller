@@ -11,7 +11,7 @@ import threading
 from tkinter import ttk
 
 #GLOBAL VARS
-version_software='GUI ADB APK INSTALLER v0.1 BETA'
+version_software='GUI ADB APK INSTALLER v0.2 BETA'
 author='Xosé Brais Noya García'
 url='https://github.com/xoseng/guiadbapkinstaller'
 email='xose.noya.garcia@gmail.com'
